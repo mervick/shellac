@@ -1,3 +1,6 @@
 #!/bin/sh
-cd ../..
+
+filename=`realpath "$(type $0 | awk '{print $3}')"`
+dirpath=`dirname ${filename}`
+cd "$dirpath/../.."
 exec bin/webapp.py 8783

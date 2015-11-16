@@ -42,8 +42,7 @@ Requirements:
 
 To run the Shellac web app server, do this in a terminal:
 
-    cd svc/shellac
-    ./run
+    ./svc/shellac/run
 
 To install the Chrome extension:
 
